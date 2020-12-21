@@ -1,0 +1,2 @@
+docker build -t meu-projeto .
+docker run -d --name app-producao -p 80:80  meu-projeto
